@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdonw Timer</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <ul class='countdown'>
+    <li>
+      <div id='day'>0</div>
+      <p>Days</p>
+    </li>
+
+    <li>
+      <div id='hr'>00</div>
+      <p>Hours</p>
+    </li>
+
+    <li>
+      <div id='min'>00</div>
+      <p>Minutes</p>
+    </li>
+
+    <li>
+      <div id='sec'>00</div>
+      <p>Seconds</p>
+    </li>
+  </ul>
+
+  <div id='form'>
+    <input type='datetime-local' id='endDate' name='date'>
+    <button type='submit' id='submit' onclick='startCountdown()'>Start</button>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  width: 90px;
+  margin: 5px;
+  border-style: solid;
+  border-color: #aeb0b2;
+  border-width: 1px;
+  border-radius: 5px;
+
+}
+
+div {
+  font-size: 22px;
+  padding-top: 10px;
+  margin-bottom: -12px;
+  font-family: Tahoma;
+}
+
+p {
+  font-size: 13px;
+  color: #aeb0b2;
+  font-weight: 600;
+  font-family: Arial;
+}
+
+#form {
+  padding-top: 0px;
+  text-align: center;
+}
